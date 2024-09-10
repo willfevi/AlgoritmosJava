@@ -26,16 +26,16 @@ Este é um projeto de aplicação web em **Java** para criação e manipulação
 
 
 ### Tecnologias Utilizadas
-**Spring Boot: Framework para a construção da aplicação web.**
-**Thymeleaf: Motor de templates para renderização de páginas HTML.**
-**Maven: Gerenciamento de dependências.**
-**Java: Linguagem principal do projeto.**
-**CSS/JavaScript: Utilizado para estilização e interatividade da interface.**
+- **Spring Boot: Framework para a construção da aplicação web.**
+- **Thymeleaf: Motor de templates para renderização de páginas HTML.**
+- **Maven: Gerenciamento de dependências.**
+- **Java: Linguagem principal do projeto.**
+- **CSS/JavaScript: Utilizado para estilização e interatividade da interface.**
 
 ### Melhorias Futuras
-**Implementar visualização gráfica dos grafos.**
-**Adicionar testes unitários para os algoritmos de grafos.**
-**Melhorar a usabilidade e design da interface.**
+- **Implementar visualização gráfica dos grafos.**
+- **Adicionar testes unitários para os algoritmos de grafos.**
+- **Melhorar a usabilidade e design da interface.**
 
 ### Contribuição
-**Fique à vontade para abrir issues ou pull requests. Agradecemos sua contribuição!**
+- **Fique à vontade para abrir issues ou pull requests. Agradecemos sua contribuição!**
