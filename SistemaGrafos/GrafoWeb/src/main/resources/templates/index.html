@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Grafo</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+    <h1>Criar Grafo</h1>
+
+	<form action="/grafos/criarGrafo" method="post">
+
+        <label for="direcional">Direcional:</label>
+        <input type="checkbox" id="direcional" name="direcional"><br>
+
+        <label for="ponderado">Ponderado:</label>
+        <input type="checkbox" id="ponderado" name="ponderado"><br>
+
+        <label for="numeroNos">Número de Nós:</label>
+        <input type="number" id="numeroNos" name="numeroNos" required><br><br>
+
+        <button type="submit">Criar Grafo</button>
+    </form>
+</body>
+</html>

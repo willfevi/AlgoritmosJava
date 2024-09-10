@@ -1,0 +1,26 @@
+<!-- resultado.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+    <h1>Resultado do Algoritmo</h1>
+
+    <div th:if="${resultado}">
+        <h2>Ordenação Topológica</h2>
+        <ul>
+            <li th:each="no : ${resultado}">
+                <span th:text="${no.nome}"></span>
+            </li>
+        </ul>
+    </div>
+
+    <form action="/" method="get">
+        <button type="submit">Voltar para Início</button>
+    </form>
+</body>
+</html>
